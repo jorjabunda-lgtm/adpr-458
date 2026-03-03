@@ -140,12 +140,19 @@ a p{
     display: inline-block;
     color: navy;
     background-color: #6a89cc;
-    transition: ;
+    transition:ease-in-out .2s;
 }
 a p:hover{
     padding: 20px 30px;
     border: 2px solid navy;
     display: inline-block;
     color: #6a89cc;
+    background-color: navy;
+    box-shadow: 14px 13px 3px 5px #6a89cc;
+    -moz-transform: translate(-10px, -15px);
+    -webkit-transform: translate(-10px, -15px);
+    -o-transform: translate(-10px, -15px);
+    -ms-transform: translate(-10px, -15px);
+    transform: translate(-10px, -15px);
 }
 
