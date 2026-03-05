@@ -121,6 +121,10 @@ ul.list{
     margin-right: 20px;
     padding: 3px 6px;
 }
+.top-nav:hover{
+    color: rgb(5, 5, 219);
+    text-decoration: underline;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -142,6 +146,11 @@ a p{
     background-color: #6a89cc;
     transition:ease-in-out .2s;
 }
+a:link, a:visited {
+    color: #6a89cc;
+    text-decoration: none;
+    /* justify-content: right; */
+}
 a p:hover{
     padding: 20px 30px;
     border: 2px solid navy;
@@ -155,4 +164,12 @@ a p:hover{
     -ms-transform: translate(-10px, -15px);
     transform: translate(-10px, -15px);
 }
+.ex2 .outerClick{
+    height: 300px;
+    background-color: beige;
+    margin: 10px;
+}
+
+
+
 
