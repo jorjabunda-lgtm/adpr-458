@@ -31,6 +31,7 @@ p{
     color: navy;
     text-align: left; 
     padding-left: 20px;
+    justify-content: left;
 
 }
 header{
@@ -106,12 +107,19 @@ ul.list{
     text-decoration: none;
 }
 .top-nav{
-    text-align: left;
     padding: 10px 40px;
     margin-bottom: 30px;
+    margin-top: 20px;
     font-size: 16px;
-    font-weight: normal;
-
+    font-weight: bold;
+    background-color: #4f679a;
+}
+.top-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 .top-nav .nav-link{
     font-size: 16px;
@@ -119,16 +127,23 @@ ul.list{
     text-decoration: none;
     color: navy;
     margin-right: 20px;
-    padding: 3px 6px;
+    padding: 20px 25px;
+    list-style-type: none;
+    display: block;
+    
 }
 .top-nav:hover{
     color: rgb(5, 5, 219);
-    text-decoration: underline;
+}
+
+.top-nav li{
+    margin: 0;
 }
 .container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    justify-content: left;
 }
 footer{
     text-align: left;
@@ -169,6 +184,7 @@ a p:hover{
     background-color: beige;
     margin: 10px;
 }
+
 
 
 
