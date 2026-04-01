@@ -47,7 +47,7 @@ p{
     color: navy;
     text-align: left; 
     padding-left: 20px;
-    text-align: left;
+    justify-content: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
@@ -112,7 +112,7 @@ header{
     justify-content: center;
 }
 ul.list{
-    /* font-size: 18px; */
+    font-size: 18px;
     margin-bottom: 15px;
     color: navy;
     text-align: left; 
@@ -227,6 +227,7 @@ ul.list{
     padding: 0 20px;
     justify-content: left;
 }
+main-info
 footer{
     text-align: center;
     font-size: 12px;
